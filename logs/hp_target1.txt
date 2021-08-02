@@ -1,0 +1,810 @@
+[LightGBM] [Warning] bagging_fraction is set=0.5652292982563527, subsample=1.0 will be ignored. Current value: bagging_fraction=0.5652292982563527
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=6, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=6
+[LightGBM] [Warning] feature_fraction is set=0.36899712858184053, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.36899712858184053
+[LightGBM] [Warning] bagging_freq is set=24, subsample_freq=0 will be ignored. Current value: bagging_freq=24
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1480]	valid_0's huber: 2.36573
+[I 2021-07-27 13:54:21,292] Finished trial#0 with value: 2.973526131409012 with parameters: {'objective': 'huber', 'learning_rate': 0.05670689366167863, 'n_estimators': 3238, 'max_depth': 20, 'num_leaves': 124888, 'max_bin': 45, 'feature_fraction': 0.36899712858184053, 'bagging_fraction': 0.5652292982563527, 'bagging_freq': 24, 'min_sum_hessian_in_leaf': 6, 'reg_alpha': 0.00221355521615118, 'reg_lambda': 0.00029330763039499947}. Best is trial#0 with value: 2.973526131409012.
+[LightGBM] [Warning] bagging_fraction is set=0.4801504211252562, subsample=1.0 will be ignored. Current value: bagging_fraction=0.4801504211252562
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.7864204101922481, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7864204101922481
+[LightGBM] [Warning] bagging_freq is set=33, subsample_freq=0 will be ignored. Current value: bagging_freq=33
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[413]	valid_0's l1: 2.80943
+[I 2021-07-27 13:56:55,709] Finished trial#1 with value: 2.809427599344754 with parameters: {'objective': 'mae', 'learning_rate': 0.026889771050913582, 'n_estimators': 1878, 'max_depth': 18, 'num_leaves': 55389, 'max_bin': 71, 'feature_fraction': 0.7864204101922481, 'bagging_fraction': 0.4801504211252562, 'bagging_freq': 33, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 0.0004548014496743264, 'reg_lambda': 0.032135555415209245}. Best is trial#1 with value: 2.809427599344754.
+[LightGBM] [Warning] bagging_fraction is set=0.22981378768424734, subsample=1.0 will be ignored. Current value: bagging_fraction=0.22981378768424734
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.10727135987854534, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.10727135987854534
+[LightGBM] [Warning] bagging_freq is set=59, subsample_freq=0 will be ignored. Current value: bagging_freq=59
+Training until validation scores don't improve for 100 rounds
+[10000]	valid_0's huber: 3.7567
+Did not meet early stopping. Best iteration is:
+[10000]	valid_0's huber: 3.7567
+[I 2021-07-27 14:15:17,922] Finished trial#2 with value: 4.614151823143487 with parameters: {'objective': 'huber', 'learning_rate': 0.00010290585429937273, 'n_estimators': 1409, 'max_depth': 15, 'num_leaves': 105535, 'max_bin': 204, 'feature_fraction': 0.10727135987854534, 'bagging_fraction': 0.22981378768424734, 'bagging_freq': 59, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 0.02562061490663405, 'reg_lambda': 0.00024984317990426865}. Best is trial#1 with value: 2.809427599344754.
+[LightGBM] [Warning] bagging_fraction is set=0.10043753990667784, subsample=1.0 will be ignored. Current value: bagging_fraction=0.10043753990667784
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=10, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=10
+[LightGBM] [Warning] feature_fraction is set=0.2586637853749644, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.2586637853749644
+[LightGBM] [Warning] bagging_freq is set=98, subsample_freq=0 will be ignored. Current value: bagging_freq=98
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[6332]	valid_0's huber: 2.38833
+[I 2021-07-27 14:17:16,731] Finished trial#3 with value: 2.9616071619190385 with parameters: {'objective': 'huber', 'learning_rate': 0.009455245503953538, 'n_estimators': 2682, 'max_depth': 11, 'num_leaves': 72880, 'max_bin': 244, 'feature_fraction': 0.2586637853749644, 'bagging_fraction': 0.10043753990667784, 'bagging_freq': 98, 'min_sum_hessian_in_leaf': 10, 'reg_alpha': 0.0034819234720003095, 'reg_lambda': 0.0011512363196129751}. Best is trial#1 with value: 2.809427599344754.
+[LightGBM] [Warning] bagging_fraction is set=0.5150544580006177, subsample=1.0 will be ignored. Current value: bagging_fraction=0.5150544580006177
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.9680922993596346, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9680922993596346
+[LightGBM] [Warning] bagging_freq is set=67, subsample_freq=0 will be ignored. Current value: bagging_freq=67
+Training until validation scores don't improve for 100 rounds
+[10000]	valid_0's l2: 64.0637
+Did not meet early stopping. Best iteration is:
+[10000]	valid_0's l2: 64.0637
+[I 2021-07-27 14:20:07,931] Finished trial#4 with value: 3.3490801399799857 with parameters: {'objective': 'mse', 'learning_rate': 0.00027647495090902803, 'n_estimators': 4829, 'max_depth': 8, 'num_leaves': 29982, 'max_bin': 243, 'feature_fraction': 0.9680922993596346, 'bagging_fraction': 0.5150544580006177, 'bagging_freq': 67, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.008050989569399031, 'reg_lambda': 1.7898522519397315e-05}. Best is trial#1 with value: 2.809427599344754.
+[LightGBM] [Warning] bagging_fraction is set=0.5703359915690895, subsample=1.0 will be ignored. Current value: bagging_fraction=0.5703359915690895
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=6, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=6
+[LightGBM] [Warning] feature_fraction is set=0.18917363476969007, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.18917363476969007
+[LightGBM] [Warning] bagging_freq is set=63, subsample_freq=0 will be ignored. Current value: bagging_freq=63
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[9077]	valid_0's l1: 2.81673
+[I 2021-07-27 14:35:38,789] Finished trial#5 with value: 2.816728413419141 with parameters: {'objective': 'mae', 'learning_rate': 0.0021533553868415527, 'n_estimators': 669, 'max_depth': 14, 'num_leaves': 41953, 'max_bin': 102, 'feature_fraction': 0.18917363476969007, 'bagging_fraction': 0.5703359915690895, 'bagging_freq': 63, 'min_sum_hessian_in_leaf': 6, 'reg_alpha': 4.5303685196190615e-05, 'reg_lambda': 0.0009720075934598747}. Best is trial#1 with value: 2.809427599344754.
+[LightGBM] [Warning] bagging_fraction is set=0.5167703900141891, subsample=1.0 will be ignored. Current value: bagging_fraction=0.5167703900141891
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=4, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=4
+[LightGBM] [Warning] feature_fraction is set=0.2556460573062326, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.2556460573062326
+[LightGBM] [Warning] bagging_freq is set=75, subsample_freq=0 will be ignored. Current value: bagging_freq=75
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[3052]	valid_0's huber: 2.35951
+[I 2021-07-27 14:41:32,303] Finished trial#6 with value: 2.9566253686265567 with parameters: {'objective': 'huber', 'learning_rate': 0.030175140578904292, 'n_estimators': 1594, 'max_depth': 15, 'num_leaves': 104822, 'max_bin': 33, 'feature_fraction': 0.2556460573062326, 'bagging_fraction': 0.5167703900141891, 'bagging_freq': 75, 'min_sum_hessian_in_leaf': 4, 'reg_alpha': 0.011064674041485022, 'reg_lambda': 7.990840833108877e-05}. Best is trial#1 with value: 2.809427599344754.
+[LightGBM] [Warning] bagging_fraction is set=0.7552911392497308, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7552911392497308
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=10, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=10
+[LightGBM] [Warning] feature_fraction is set=0.9599283722968684, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9599283722968684
+[LightGBM] [Warning] bagging_freq is set=16, subsample_freq=0 will be ignored. Current value: bagging_freq=16
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[5568]	valid_0's l2: 62.2542
+[I 2021-07-27 14:46:32,029] Finished trial#7 with value: 3.237812708336787 with parameters: {'objective': 'mse', 'learning_rate': 0.0010822835435548692, 'n_estimators': 2088, 'max_depth': 13, 'num_leaves': 29885, 'max_bin': 169, 'feature_fraction': 0.9599283722968684, 'bagging_fraction': 0.7552911392497308, 'bagging_freq': 16, 'min_sum_hessian_in_leaf': 10, 'reg_alpha': 0.0001409133371447035, 'reg_lambda': 1.035235793909901e-05}. Best is trial#1 with value: 2.809427599344754.
+[LightGBM] [Warning] bagging_fraction is set=0.6297989769788065, subsample=1.0 will be ignored. Current value: bagging_fraction=0.6297989769788065
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=3, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=3
+[LightGBM] [Warning] feature_fraction is set=0.7543234605751621, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7543234605751621
+[LightGBM] [Warning] bagging_freq is set=71, subsample_freq=0 will be ignored. Current value: bagging_freq=71
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[5962]	valid_0's huber: 2.33514
+[I 2021-07-27 15:02:03,678] Finished trial#8 with value: 2.9283672586534593 with parameters: {'objective': 'huber', 'learning_rate': 0.00960255450807811, 'n_estimators': 3111, 'max_depth': 20, 'num_leaves': 22049, 'max_bin': 97, 'feature_fraction': 0.7543234605751621, 'bagging_fraction': 0.6297989769788065, 'bagging_freq': 71, 'min_sum_hessian_in_leaf': 3, 'reg_alpha': 5.7493883385681716e-05, 'reg_lambda': 0.005973376012796578}. Best is trial#1 with value: 2.809427599344754.
+[LightGBM] [Warning] bagging_fraction is set=0.1967960097127055, subsample=1.0 will be ignored. Current value: bagging_fraction=0.1967960097127055
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=6, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=6
+[LightGBM] [Warning] feature_fraction is set=0.8776888290559406, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8776888290559406
+[LightGBM] [Warning] bagging_freq is set=19, subsample_freq=0 will be ignored. Current value: bagging_freq=19
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[2958]	valid_0's l1: 2.81812
+[I 2021-07-27 15:05:12,674] Finished trial#9 with value: 2.8181241695838612 with parameters: {'objective': 'mae', 'learning_rate': 0.0029240690481669063, 'n_estimators': 1043, 'max_depth': 14, 'num_leaves': 64911, 'max_bin': 46, 'feature_fraction': 0.8776888290559406, 'bagging_fraction': 0.1967960097127055, 'bagging_freq': 19, 'min_sum_hessian_in_leaf': 6, 'reg_alpha': 0.0015744126685751556, 'reg_lambda': 0.00040691760135586926}. Best is trial#1 with value: 2.809427599344754.
+[LightGBM] [Warning] bagging_fraction is set=0.948075209628393, subsample=1.0 will be ignored. Current value: bagging_fraction=0.948075209628393
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=1, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=1
+[LightGBM] [Warning] feature_fraction is set=0.6231380840264323, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6231380840264323
+[LightGBM] [Warning] bagging_freq is set=37, subsample_freq=0 will be ignored. Current value: bagging_freq=37
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[138]	valid_0's l1: 2.82385
+[I 2021-07-27 15:05:56,836] Finished trial#10 with value: 2.8238480262952987 with parameters: {'objective': 'mae', 'learning_rate': 0.08173603598417455, 'n_estimators': 135, 'max_depth': 18, 'num_leaves': 3290, 'max_bin': 135, 'feature_fraction': 0.6231380840264323, 'bagging_fraction': 0.948075209628393, 'bagging_freq': 37, 'min_sum_hessian_in_leaf': 1, 'reg_alpha': 0.00032881328304608636, 'reg_lambda': 0.08207909169047407}. Best is trial#1 with value: 2.809427599344754.
+[LightGBM] [Warning] bagging_fraction is set=0.40020426986423263, subsample=1.0 will be ignored. Current value: bagging_fraction=0.40020426986423263
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.5560611357654066, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.5560611357654066
+[LightGBM] [Warning] bagging_freq is set=40, subsample_freq=0 will be ignored. Current value: bagging_freq=40
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[7554]	valid_0's l1: 2.79984
+[I 2021-07-27 15:39:48,033] Finished trial#11 with value: 2.799837824916493 with parameters: {'objective': 'mae', 'learning_rate': 0.0011283284095850307, 'n_estimators': 242, 'max_depth': 17, 'num_leaves': 60162, 'max_bin': 93, 'feature_fraction': 0.5560611357654066, 'bagging_fraction': 0.40020426986423263, 'bagging_freq': 40, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 1.4676157140031742e-05, 'reg_lambda': 0.01562804775883277}. Best is trial#11 with value: 2.799837824916493.
+[LightGBM] [Warning] bagging_fraction is set=0.3493835918005699, subsample=1.0 will be ignored. Current value: bagging_fraction=0.3493835918005699
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.5166737097959, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.5166737097959
+[LightGBM] [Warning] bagging_freq is set=40, subsample_freq=0 will be ignored. Current value: bagging_freq=40
+Training until validation scores don't improve for 100 rounds
+[10000]	valid_0's l1: 2.81005
+Did not meet early stopping. Best iteration is:
+[9961]	valid_0's l1: 2.81002
+[I 2021-07-27 16:25:13,400] Finished trial#12 with value: 2.8100167096162587 with parameters: {'objective': 'mae', 'learning_rate': 0.0007106790370001794, 'n_estimators': 166, 'max_depth': 18, 'num_leaves': 65042, 'max_bin': 87, 'feature_fraction': 0.5166737097959, 'bagging_fraction': 0.3493835918005699, 'bagging_freq': 40, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 1.5119912261193226e-05, 'reg_lambda': 0.08328971609063594}. Best is trial#11 with value: 2.799837824916493.
+[LightGBM] [Warning] bagging_fraction is set=0.3713859913133081, subsample=1.0 will be ignored. Current value: bagging_fraction=0.3713859913133081
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.6699476661317191, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6699476661317191
+[LightGBM] [Warning] bagging_freq is set=2, subsample_freq=0 will be ignored. Current value: bagging_freq=2
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[3408]	valid_0's l1: 2.85178
+[I 2021-07-27 16:25:49,801] Finished trial#13 with value: 2.851780678164285 with parameters: {'objective': 'mae', 'learning_rate': 0.01110881657897047, 'n_estimators': 4401, 'max_depth': 3, 'num_leaves': 78855, 'max_bin': 73, 'feature_fraction': 0.6699476661317191, 'bagging_fraction': 0.3713859913133081, 'bagging_freq': 2, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00047322087933631134, 'reg_lambda': 0.013599382927010158}. Best is trial#11 with value: 2.799837824916493.
+[LightGBM] [Warning] bagging_fraction is set=0.37037465290888394, subsample=1.0 will be ignored. Current value: bagging_fraction=0.37037465290888394
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.45748846520464814, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.45748846520464814
+[LightGBM] [Warning] bagging_freq is set=45, subsample_freq=0 will be ignored. Current value: bagging_freq=45
+Training until validation scores don't improve for 100 rounds
+[10000]	valid_0's l1: 2.8452
+Did not meet early stopping. Best iteration is:
+[10000]	valid_0's l1: 2.8452
+[I 2021-07-27 17:09:40,871] Finished trial#14 with value: 2.8451951631969847 with parameters: {'objective': 'mae', 'learning_rate': 0.0003976783554206804, 'n_estimators': 2044, 'max_depth': 18, 'num_leaves': 49429, 'max_bin': 135, 'feature_fraction': 0.45748846520464814, 'bagging_fraction': 0.37037465290888394, 'bagging_freq': 45, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 1.5929497185544772e-05, 'reg_lambda': 0.017454845762841422}. Best is trial#11 with value: 2.799837824916493.
+[LightGBM] [Warning] bagging_fraction is set=0.7170109869582149, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7170109869582149
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=10, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=10
+[LightGBM] [Warning] feature_fraction is set=0.7886752035971397, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7886752035971397
+[LightGBM] [Warning] bagging_freq is set=30, subsample_freq=0 will be ignored. Current value: bagging_freq=30
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[844]	valid_0's l1: 2.78016
+[I 2021-07-27 17:10:12,788] Finished trial#15 with value: 2.7801559103648796 with parameters: {'objective': 'mae', 'learning_rate': 0.02081071141232036, 'n_estimators': 3829, 'max_depth': 10, 'num_leaves': 87910, 'max_bin': 18, 'feature_fraction': 0.7886752035971397, 'bagging_fraction': 0.7170109869582149, 'bagging_freq': 30, 'min_sum_hessian_in_leaf': 10, 'reg_alpha': 1.2227305648980755e-05, 'reg_lambda': 0.03511728978415719}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.7702556800600765, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7702556800600765
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=4, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=4
+[LightGBM] [Warning] feature_fraction is set=0.6306333207994355, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6306333207994355
+[LightGBM] [Warning] bagging_freq is set=6, subsample_freq=0 will be ignored. Current value: bagging_freq=6
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[4666]	valid_0's l1: 2.81126
+[I 2021-07-27 17:12:01,645] Finished trial#16 with value: 2.8112605550470424 with parameters: {'objective': 'mae', 'learning_rate': 0.003995818461708537, 'n_estimators': 3752, 'max_depth': 8, 'num_leaves': 90607, 'max_bin': 13, 'feature_fraction': 0.6306333207994355, 'bagging_fraction': 0.7702556800600765, 'bagging_freq': 6, 'min_sum_hessian_in_leaf': 4, 'reg_alpha': 1.141358676059353e-05, 'reg_lambda': 0.004154392187964655}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9700503391785187, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9700503391785187
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=10, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=10
+[LightGBM] [Warning] feature_fraction is set=0.762043951414847, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.762043951414847
+[LightGBM] [Warning] bagging_freq is set=29, subsample_freq=0 will be ignored. Current value: bagging_freq=29
+Training until validation scores don't improve for 100 rounds
+[10000]	valid_0's l2: 66.6866
+Did not meet early stopping. Best iteration is:
+[10000]	valid_0's l2: 66.6866
+[I 2021-07-27 17:16:48,173] Finished trial#17 with value: 3.5206107111606113 with parameters: {'objective': 'mse', 'learning_rate': 0.00017685706625861103, 'n_estimators': 4230, 'max_depth': 9, 'num_leaves': 90798, 'max_bin': 10, 'feature_fraction': 0.762043951414847, 'bagging_fraction': 0.9700503391785187, 'bagging_freq': 29, 'min_sum_hessian_in_leaf': 10, 'reg_alpha': 4.3487025798599685e-05, 'reg_lambda': 0.0906908316957923}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.7331019146815717, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7331019146815717
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=1, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=1
+[LightGBM] [Warning] feature_fraction is set=0.4651070925154803, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.4651070925154803
+[LightGBM] [Warning] bagging_freq is set=52, subsample_freq=0 will be ignored. Current value: bagging_freq=52
+Training until validation scores don't improve for 100 rounds
+[10000]	valid_0's l1: 2.88466
+Did not meet early stopping. Best iteration is:
+[10000]	valid_0's l1: 2.88466
+[I 2021-07-27 17:18:00,181] Finished trial#18 with value: 2.884662844422758 with parameters: {'objective': 'mae', 'learning_rate': 0.0016119521404803843, 'n_estimators': 3705, 'max_depth': 3, 'num_leaves': 129540, 'max_bin': 166, 'feature_fraction': 0.4651070925154803, 'bagging_fraction': 0.7331019146815717, 'bagging_freq': 52, 'min_sum_hessian_in_leaf': 1, 'reg_alpha': 1.0054603986997649e-05, 'reg_lambda': 0.004039506316131619}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8589965225615271, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8589965225615271
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=4, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=4
+[LightGBM] [Warning] feature_fraction is set=0.8585289538905327, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8585289538905327
+[LightGBM] [Warning] bagging_freq is set=84, subsample_freq=0 will be ignored. Current value: bagging_freq=84
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[3659]	valid_0's l1: 2.82405
+[I 2021-07-27 17:18:39,837] Finished trial#19 with value: 2.8240499302085036 with parameters: {'objective': 'mae', 'learning_rate': 0.004891245167578201, 'n_estimators': 4768, 'max_depth': 5, 'num_leaves': 113363, 'max_bin': 123, 'feature_fraction': 0.8585289538905327, 'bagging_fraction': 0.8589965225615271, 'bagging_freq': 84, 'min_sum_hessian_in_leaf': 4, 'reg_alpha': 0.07036844180578739, 'reg_lambda': 0.027634930423599758}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.6707603778617361, subsample=1.0 will be ignored. Current value: bagging_fraction=0.6707603778617361
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.5740817093214643, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.5740817093214643
+[LightGBM] [Warning] bagging_freq is set=11, subsample_freq=0 will be ignored. Current value: bagging_freq=11
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[681]	valid_0's l1: 2.80305
+[I 2021-07-27 17:19:14,274] Finished trial#20 with value: 2.8030509978325178 with parameters: {'objective': 'mae', 'learning_rate': 0.022674276023192014, 'n_estimators': 2726, 'max_depth': 11, 'num_leaves': 84661, 'max_bin': 32, 'feature_fraction': 0.5740817093214643, 'bagging_fraction': 0.6707603778617361, 'bagging_freq': 11, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 0.00011826909932907181, 'reg_lambda': 0.009063451325079033}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.6465775505448242, subsample=1.0 will be ignored. Current value: bagging_fraction=0.6465775505448242
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.5625465792418994, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.5625465792418994
+[LightGBM] [Warning] bagging_freq is set=10, subsample_freq=0 will be ignored. Current value: bagging_freq=10
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[773]	valid_0's l1: 2.79479
+[I 2021-07-27 17:19:51,132] Finished trial#21 with value: 2.794785825645451 with parameters: {'objective': 'mae', 'learning_rate': 0.025101145285462364, 'n_estimators': 2517, 'max_depth': 11, 'num_leaves': 85405, 'max_bin': 28, 'feature_fraction': 0.5625465792418994, 'bagging_fraction': 0.6465775505448242, 'bagging_freq': 10, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 0.00012133984248654827, 'reg_lambda': 0.009543414215857667}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8489167813531999, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8489167813531999
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.37371421947294076, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.37371421947294076
+[LightGBM] [Warning] bagging_freq is set=48, subsample_freq=0 will be ignored. Current value: bagging_freq=48
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[524]	valid_0's l1: 2.78838
+[I 2021-07-27 17:20:11,183] Finished trial#22 with value: 2.7883779624573295 with parameters: {'objective': 'mae', 'learning_rate': 0.05287336972143415, 'n_estimators': 3579, 'max_depth': 10, 'num_leaves': 99001, 'max_bin': 57, 'feature_fraction': 0.37371421947294076, 'bagging_fraction': 0.8489167813531999, 'bagging_freq': 48, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 2.562889904102028e-05, 'reg_lambda': 0.03933816242740215}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8591519085930874, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8591519085930874
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.4408342551125127, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.4408342551125127
+[LightGBM] [Warning] bagging_freq is set=52, subsample_freq=0 will be ignored. Current value: bagging_freq=52
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[240]	valid_0's l1: 2.81245
+[I 2021-07-27 17:20:22,428] Finished trial#23 with value: 2.812450032481185 with parameters: {'objective': 'mae', 'learning_rate': 0.09882312485925591, 'n_estimators': 3511, 'max_depth': 10, 'num_leaves': 99172, 'max_bin': 11, 'feature_fraction': 0.4408342551125127, 'bagging_fraction': 0.8591519085930874, 'bagging_freq': 52, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 2.8449636292063826e-05, 'reg_lambda': 0.04832799821659943}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8233623212559289, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8233623212559289
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=5, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=5
+[LightGBM] [Warning] feature_fraction is set=0.35497032719865185, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.35497032719865185
+[LightGBM] [Warning] bagging_freq is set=24, subsample_freq=0 will be ignored. Current value: bagging_freq=24
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1038]	valid_0's l1: 2.79949
+[I 2021-07-27 17:20:37,253] Finished trial#24 with value: 2.799488934143841 with parameters: {'objective': 'mae', 'learning_rate': 0.048852021746118676, 'n_estimators': 4127, 'max_depth': 6, 'num_leaves': 113424, 'max_bin': 53, 'feature_fraction': 0.35497032719865185, 'bagging_fraction': 0.8233623212559289, 'bagging_freq': 24, 'min_sum_hessian_in_leaf': 5, 'reg_alpha': 0.00015588646832428364, 'reg_lambda': 0.002200671325667413}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.6825830062057822, subsample=1.0 will be ignored. Current value: bagging_fraction=0.6825830062057822
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=5, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=5
+[LightGBM] [Warning] feature_fraction is set=0.3681264935646266, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.3681264935646266
+[LightGBM] [Warning] bagging_freq is set=1, subsample_freq=0 will be ignored. Current value: bagging_freq=1
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1442]	valid_0's l1: 2.79287
+[I 2021-07-27 17:21:55,897] Finished trial#25 with value: 2.792872743328709 with parameters: {'objective': 'mae', 'learning_rate': 0.016021680642287553, 'n_estimators': 3027, 'max_depth': 12, 'num_leaves': 77374, 'max_bin': 22, 'feature_fraction': 0.3681264935646266, 'bagging_fraction': 0.6825830062057822, 'bagging_freq': 1, 'min_sum_hessian_in_leaf': 5, 'reg_alpha': 9.103423472430408e-05, 'reg_lambda': 0.04877916262073023}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8925737503746175, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8925737503746175
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=2, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=2
+[LightGBM] [Warning] feature_fraction is set=0.3154348837633161, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.3154348837633161
+[LightGBM] [Warning] bagging_freq is set=46, subsample_freq=0 will be ignored. Current value: bagging_freq=46
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[721]	valid_0's l2: 62.216
+[I 2021-07-27 17:22:06,634] Finished trial#26 with value: 3.1858019259118064 with parameters: {'objective': 'mse', 'learning_rate': 0.01806517973814302, 'n_estimators': 3113, 'max_depth': 7, 'num_leaves': 74396, 'max_bin': 62, 'feature_fraction': 0.3154348837633161, 'bagging_fraction': 0.8925737503746175, 'bagging_freq': 46, 'min_sum_hessian_in_leaf': 2, 'reg_alpha': 3.0097151947157456e-05, 'reg_lambda': 0.0434024426996895}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.6938025623140933, subsample=1.0 will be ignored. Current value: bagging_fraction=0.6938025623140933
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=5, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=5
+[LightGBM] [Warning] feature_fraction is set=0.3914901044825726, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.3914901044825726
+[LightGBM] [Warning] bagging_freq is set=55, subsample_freq=0 will be ignored. Current value: bagging_freq=55
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[2139]	valid_0's l1: 2.80172
+[I 2021-07-27 17:24:18,368] Finished trial#27 with value: 2.8017158178312713 with parameters: {'objective': 'mae', 'learning_rate': 0.006156221045236782, 'n_estimators': 3974, 'max_depth': 12, 'num_leaves': 95926, 'max_bin': 22, 'feature_fraction': 0.3914901044825726, 'bagging_fraction': 0.6938025623140933, 'bagging_freq': 55, 'min_sum_hessian_in_leaf': 5, 'reg_alpha': 7.78728289275544e-05, 'reg_lambda': 0.062260510004057704}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8019514725493273, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8019514725493273
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=3, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=3
+[LightGBM] [Warning] feature_fraction is set=0.11752911955889916, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.11752911955889916
+[LightGBM] [Warning] bagging_freq is set=82, subsample_freq=0 will be ignored. Current value: bagging_freq=82
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1466]	valid_0's l1: 2.83386
+[I 2021-07-27 17:24:53,044] Finished trial#28 with value: 2.833859660305735 with parameters: {'objective': 'mae', 'learning_rate': 0.045536759636588486, 'n_estimators': 4577, 'max_depth': 9, 'num_leaves': 116646, 'max_bin': 48, 'feature_fraction': 0.11752911955889916, 'bagging_fraction': 0.8019514725493273, 'bagging_freq': 82, 'min_sum_hessian_in_leaf': 3, 'reg_alpha': 2.8038130506134167e-05, 'reg_lambda': 0.02513579094433111}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9979646727825375, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9979646727825375
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=6, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=6
+[LightGBM] [Warning] feature_fraction is set=0.29744341242309436, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.29744341242309436
+[LightGBM] [Warning] bagging_freq is set=27, subsample_freq=0 will be ignored. Current value: bagging_freq=27
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1733]	valid_0's l1: 2.78808
+[I 2021-07-27 17:26:49,662] Finished trial#29 with value: 2.788078828688778 with parameters: {'objective': 'mae', 'learning_rate': 0.015205133172926346, 'n_estimators': 3357, 'max_depth': 12, 'num_leaves': 120094, 'max_bin': 39, 'feature_fraction': 0.29744341242309436, 'bagging_fraction': 0.9979646727825375, 'bagging_freq': 27, 'min_sum_hessian_in_leaf': 6, 'reg_alpha': 0.0002209400960397204, 'reg_lambda': 0.04435489417710112}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.998147231644688, subsample=1.0 will be ignored. Current value: bagging_fraction=0.998147231644688
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=6, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=6
+[LightGBM] [Warning] feature_fraction is set=0.21083002827826733, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.21083002827826733
+[LightGBM] [Warning] bagging_freq is set=25, subsample_freq=0 will be ignored. Current value: bagging_freq=25
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[402]	valid_0's l1: 2.80704
+[I 2021-07-27 17:27:07,756] Finished trial#30 with value: 2.8070416458670517 with parameters: {'objective': 'mae', 'learning_rate': 0.063062302480928, 'n_estimators': 3441, 'max_depth': 10, 'num_leaves': 121439, 'max_bin': 79, 'feature_fraction': 0.21083002827826733, 'bagging_fraction': 0.998147231644688, 'bagging_freq': 25, 'min_sum_hessian_in_leaf': 6, 'reg_alpha': 0.00026534261388200177, 'reg_lambda': 0.09367018273451419}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9206068581064728, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9206068581064728
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=5, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=5
+[LightGBM] [Warning] feature_fraction is set=0.29717792612774413, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.29717792612774413
+[LightGBM] [Warning] bagging_freq is set=19, subsample_freq=0 will be ignored. Current value: bagging_freq=19
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1003]	valid_0's l1: 2.79887
+[I 2021-07-27 17:28:18,186] Finished trial#31 with value: 2.7988683371026215 with parameters: {'objective': 'mae', 'learning_rate': 0.016586866668781144, 'n_estimators': 3182, 'max_depth': 12, 'num_leaves': 101584, 'max_bin': 41, 'feature_fraction': 0.29717792612774413, 'bagging_fraction': 0.9206068581064728, 'bagging_freq': 19, 'min_sum_hessian_in_leaf': 5, 'reg_alpha': 0.0006226927719776239, 'reg_lambda': 0.0368970304287168}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.6016919680381301, subsample=1.0 will be ignored. Current value: bagging_fraction=0.6016919680381301
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=6, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=6
+[LightGBM] [Warning] feature_fraction is set=0.3957697305110768, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.3957697305110768
+[LightGBM] [Warning] bagging_freq is set=32, subsample_freq=0 will be ignored. Current value: bagging_freq=32
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[606]	valid_0's l1: 2.80093
+[I 2021-07-27 17:29:04,545] Finished trial#32 with value: 2.800927144030817 with parameters: {'objective': 'mae', 'learning_rate': 0.03419448775434943, 'n_estimators': 2805, 'max_depth': 13, 'num_leaves': 80721, 'max_bin': 61, 'feature_fraction': 0.3957697305110768, 'bagging_fraction': 0.6016919680381301, 'bagging_freq': 32, 'min_sum_hessian_in_leaf': 6, 'reg_alpha': 0.0008115468483865839, 'reg_lambda': 0.024672283100231864}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.7216177471614116, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7216177471614116
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=5, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=5
+[LightGBM] [Warning] feature_fraction is set=0.34405565571057606, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.34405565571057606
+[LightGBM] [Warning] bagging_freq is set=1, subsample_freq=0 will be ignored. Current value: bagging_freq=1
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[2658]	valid_0's l1: 2.78974
+[I 2021-07-27 17:30:20,924] Finished trial#33 with value: 2.789737549794381 with parameters: {'objective': 'mae', 'learning_rate': 0.013958074069578646, 'n_estimators': 3948, 'max_depth': 10, 'num_leaves': 129660, 'max_bin': 19, 'feature_fraction': 0.34405565571057606, 'bagging_fraction': 0.7216177471614116, 'bagging_freq': 1, 'min_sum_hessian_in_leaf': 5, 'reg_alpha': 0.0002650052502928372, 'reg_lambda': 0.051931275333336795}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9972687004255003, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9972687004255003
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.2333754675114765, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.2333754675114765
+[LightGBM] [Warning] bagging_freq is set=46, subsample_freq=0 will be ignored. Current value: bagging_freq=46
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[6599]	valid_0's l1: 2.80382
+[I 2021-07-27 17:34:13,170] Finished trial#34 with value: 2.8038207611253 with parameters: {'objective': 'mae', 'learning_rate': 0.007855637931965287, 'n_estimators': 3852, 'max_depth': 10, 'num_leaves': 130377, 'max_bin': 10, 'feature_fraction': 0.2333754675114765, 'bagging_fraction': 0.9972687004255003, 'bagging_freq': 46, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 0.0012860772524635109, 'reg_lambda': 0.0996963290401175}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8077672326144256, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8077672326144256
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=4, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=4
+[LightGBM] [Warning] feature_fraction is set=0.1681987314510852, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.1681987314510852
+[LightGBM] [Warning] bagging_freq is set=35, subsample_freq=0 will be ignored. Current value: bagging_freq=35
+Training until validation scores don't improve for 100 rounds
+[10000]	valid_0's huber: 2.34178
+Did not meet early stopping. Best iteration is:
+[9993]	valid_0's huber: 2.34174
+[I 2021-07-27 17:37:25,413] Finished trial#35 with value: 2.915125296208911 with parameters: {'objective': 'huber', 'learning_rate': 0.013490984957618747, 'n_estimators': 3549, 'max_depth': 9, 'num_leaves': 122133, 'max_bin': 60, 'feature_fraction': 0.1681987314510852, 'bagging_fraction': 0.8077672326144256, 'bagging_freq': 35, 'min_sum_hessian_in_leaf': 4, 'reg_alpha': 0.0002596848969580003, 'reg_lambda': 0.010881574975144618}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8913012961889344, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8913012961889344
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=6, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=6
+[LightGBM] [Warning] feature_fraction is set=0.5004548209992143, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.5004548209992143
+[LightGBM] [Warning] bagging_freq is set=59, subsample_freq=0 will be ignored. Current value: bagging_freq=59
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[716]	valid_0's l1: 2.79958
+[I 2021-07-27 17:37:38,956] Finished trial#36 with value: 2.7995815587512616 with parameters: {'objective': 'mae', 'learning_rate': 0.041584305622467906, 'n_estimators': 2398, 'max_depth': 7, 'num_leaves': 109488, 'max_bin': 35, 'feature_fraction': 0.5004548209992143, 'bagging_fraction': 0.8913012961889344, 'bagging_freq': 59, 'min_sum_hessian_in_leaf': 6, 'reg_alpha': 0.0025911532581129803, 'reg_lambda': 0.024114458121134535}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.7285743661285837, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7285743661285837
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.3168263785068727, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.3168263785068727
+[LightGBM] [Warning] bagging_freq is set=28, subsample_freq=0 will be ignored. Current value: bagging_freq=28
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1708]	valid_0's l1: 2.8092
+[I 2021-07-27 17:40:03,408] Finished trial#37 with value: 2.809197805094813 with parameters: {'objective': 'mae', 'learning_rate': 0.006892141482522948, 'n_estimators': 4204, 'max_depth': 13, 'num_leaves': 128542, 'max_bin': 22, 'feature_fraction': 0.3168263785068727, 'bagging_fraction': 0.7285743661285837, 'bagging_freq': 28, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00023512851430961066, 'reg_lambda': 0.006274048160234159}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8439544986050299, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8439544986050299
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=3, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=3
+[LightGBM] [Warning] feature_fraction is set=0.1440336790310915, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.1440336790310915
+[LightGBM] [Warning] bagging_freq is set=11, subsample_freq=0 will be ignored. Current value: bagging_freq=11
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[626]	valid_0's l2: 62.1528
+[I 2021-07-27 17:40:15,595] Finished trial#38 with value: 3.325681741088007 with parameters: {'objective': 'mse', 'learning_rate': 0.05816823796686913, 'n_estimators': 3448, 'max_depth': 8, 'num_leaves': 107043, 'max_bin': 69, 'feature_fraction': 0.1440336790310915, 'bagging_fraction': 0.8439544986050299, 'bagging_freq': 11, 'min_sum_hessian_in_leaf': 3, 'reg_alpha': 2.2879331285256557e-05, 'reg_lambda': 4.766330125647894e-05}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.594851621658524, subsample=1.0 will be ignored. Current value: bagging_fraction=0.594851621658524
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.2761097062904528, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.2761097062904528
+[LightGBM] [Warning] bagging_freq is set=23, subsample_freq=0 will be ignored. Current value: bagging_freq=23
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[4346]	valid_0's huber: 2.35345
+[I 2021-07-27 17:54:02,579] Finished trial#39 with value: 2.9555247483551184 with parameters: {'objective': 'huber', 'learning_rate': 0.02472912338895989, 'n_estimators': 4427, 'max_depth': 16, 'num_leaves': 94013, 'max_bin': 119, 'feature_fraction': 0.2761097062904528, 'bagging_fraction': 0.594851621658524, 'bagging_freq': 23, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 0.005366176928882625, 'reg_lambda': 0.0013291306751254176}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.7828134405465323, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7828134405465323
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=5, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=5
+[LightGBM] [Warning] feature_fraction is set=0.6874169495267144, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6874169495267144
+[LightGBM] [Warning] bagging_freq is set=16, subsample_freq=0 will be ignored. Current value: bagging_freq=16
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1122]	valid_0's l1: 2.80157
+[I 2021-07-27 17:56:31,845] Finished trial#40 with value: 2.8015689453997217 with parameters: {'objective': 'mae', 'learning_rate': 0.011521972852460694, 'n_estimators': 4008, 'max_depth': 14, 'num_leaves': 119496, 'max_bin': 41, 'feature_fraction': 0.6874169495267144, 'bagging_fraction': 0.7828134405465323, 'bagging_freq': 16, 'min_sum_hessian_in_leaf': 5, 'reg_alpha': 5.8297104018663015e-05, 'reg_lambda': 0.054504947925665556}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.694459011280212, subsample=1.0 will be ignored. Current value: bagging_fraction=0.694459011280212
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=5, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=5
+[LightGBM] [Warning] feature_fraction is set=0.3522532680599938, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.3522532680599938
+[LightGBM] [Warning] bagging_freq is set=1, subsample_freq=0 will be ignored. Current value: bagging_freq=1
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[962]	valid_0's l1: 2.79356
+[I 2021-07-27 17:57:32,165] Finished trial#41 with value: 2.793559432113403 with parameters: {'objective': 'mae', 'learning_rate': 0.01613648161389486, 'n_estimators': 2999, 'max_depth': 12, 'num_leaves': 73068, 'max_bin': 21, 'feature_fraction': 0.3522532680599938, 'bagging_fraction': 0.694459011280212, 'bagging_freq': 1, 'min_sum_hessian_in_leaf': 5, 'reg_alpha': 8.737922037553585e-05, 'reg_lambda': 0.037453281430199624}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.5382109027763535, subsample=1.0 will be ignored. Current value: bagging_fraction=0.5382109027763535
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=4, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=4
+[LightGBM] [Warning] feature_fraction is set=0.4121634027489992, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.4121634027489992
+[LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[746]	valid_0's l1: 2.79425
+[I 2021-07-27 17:58:06,910] Finished trial#42 with value: 2.7942495963421186 with parameters: {'objective': 'mae', 'learning_rate': 0.034777656675642914, 'n_estimators': 3316, 'max_depth': 11, 'num_leaves': 102357, 'max_bin': 21, 'feature_fraction': 0.4121634027489992, 'bagging_fraction': 0.5382109027763535, 'bagging_freq': 5, 'min_sum_hessian_in_leaf': 4, 'reg_alpha': 0.0001800358891079655, 'reg_lambda': 0.0563334398876922}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.7138882205857743, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7138882205857743
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=6, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=6
+[LightGBM] [Warning] feature_fraction is set=0.3412592006964632, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.3412592006964632
+[LightGBM] [Warning] bagging_freq is set=65, subsample_freq=0 will be ignored. Current value: bagging_freq=65
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[197]	valid_0's l1: 2.81181
+[I 2021-07-27 17:58:16,442] Finished trial#43 with value: 2.811811024648625 with parameters: {'objective': 'mae', 'learning_rate': 0.07939316613855588, 'n_estimators': 2929, 'max_depth': 10, 'num_leaves': 53807, 'max_bin': 51, 'feature_fraction': 0.3412592006964632, 'bagging_fraction': 0.7138882205857743, 'bagging_freq': 65, 'min_sum_hessian_in_leaf': 6, 'reg_alpha': 0.0004934533077161664, 'reg_lambda': 0.017451034297789884}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.4585887971640617, subsample=1.0 will be ignored. Current value: bagging_fraction=0.4585887971640617
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.22326827186514625, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.22326827186514625
+[LightGBM] [Warning] bagging_freq is set=42, subsample_freq=0 will be ignored. Current value: bagging_freq=42
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1242]	valid_0's l1: 2.80515
+[I 2021-07-27 17:59:35,423] Finished trial#44 with value: 2.8051454549620365 with parameters: {'objective': 'mae', 'learning_rate': 0.0186715206489611, 'n_estimators': 3670, 'max_depth': 13, 'num_leaves': 87967, 'max_bin': 229, 'feature_fraction': 0.22326827186514625, 'bagging_fraction': 0.4585887971640617, 'bagging_freq': 42, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 8.137567168552517e-05, 'reg_lambda': 0.0689081447356305}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.638597711712098, subsample=1.0 will be ignored. Current value: bagging_fraction=0.638597711712098
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=5, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=5
+[LightGBM] [Warning] feature_fraction is set=0.2765660350611451, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.2765660350611451
+[LightGBM] [Warning] bagging_freq is set=15, subsample_freq=0 will be ignored. Current value: bagging_freq=15
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[2632]	valid_0's l1: 2.80686
+[I 2021-07-27 18:04:14,064] Finished trial#45 with value: 2.8068640369244346 with parameters: {'objective': 'mae', 'learning_rate': 0.009535756181425962, 'n_estimators': 3317, 'max_depth': 14, 'num_leaves': 69050, 'max_bin': 37, 'feature_fraction': 0.2765660350611451, 'bagging_fraction': 0.638597711712098, 'bagging_freq': 15, 'min_sum_hessian_in_leaf': 5, 'reg_alpha': 4.942794133702091e-05, 'reg_lambda': 0.03944652823955929}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.7504172871892836, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7504172871892836
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=10, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=10
+[LightGBM] [Warning] feature_fraction is set=0.5035393131224533, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.5035393131224533
+[LightGBM] [Warning] bagging_freq is set=60, subsample_freq=0 will be ignored. Current value: bagging_freq=60
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[4620]	valid_0's huber: 2.29165
+[I 2021-07-27 18:06:25,038] Finished trial#46 with value: 2.8637037007452215 with parameters: {'objective': 'huber', 'learning_rate': 0.032561169842527625, 'n_estimators': 2332, 'max_depth': 11, 'num_leaves': 76846, 'max_bin': 108, 'feature_fraction': 0.5035393131224533, 'bagging_fraction': 0.7504172871892836, 'bagging_freq': 60, 'min_sum_hessian_in_leaf': 10, 'reg_alpha': 2.119899894986561e-05, 'reg_lambda': 0.01914801257767562}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.5795479266432075, subsample=1.0 will be ignored. Current value: bagging_fraction=0.5795479266432075
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=6, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=6
+[LightGBM] [Warning] feature_fraction is set=0.93232696974201, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.93232696974201
+[LightGBM] [Warning] bagging_freq is set=33, subsample_freq=0 will be ignored. Current value: bagging_freq=33
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[2674]	valid_0's l1: 2.80855
+[I 2021-07-27 18:07:41,101] Finished trial#47 with value: 2.808548340317369 with parameters: {'objective': 'mae', 'learning_rate': 0.004738900547292976, 'n_estimators': 3797, 'max_depth': 9, 'num_leaves': 108331, 'max_bin': 81, 'feature_fraction': 0.93232696974201, 'bagging_fraction': 0.5795479266432075, 'bagging_freq': 33, 'min_sum_hessian_in_leaf': 6, 'reg_alpha': 0.0003632710956710864, 'reg_lambda': 0.09644760798600999}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9368474115460398, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9368474115460398
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=4, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=4
+[LightGBM] [Warning] feature_fraction is set=0.41998060685946625, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.41998060685946625
+[LightGBM] [Warning] bagging_freq is set=1, subsample_freq=0 will be ignored. Current value: bagging_freq=1
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1980]	valid_0's l1: 2.78413
+[I 2021-07-27 18:09:42,902] Finished trial#48 with value: 2.7841290647743953 with parameters: {'objective': 'mae', 'learning_rate': 0.013706242323428467, 'n_estimators': 4645, 'max_depth': 12, 'num_leaves': 95625, 'max_bin': 148, 'feature_fraction': 0.41998060685946625, 'bagging_fraction': 0.9368474115460398, 'bagging_freq': 1, 'min_sum_hessian_in_leaf': 4, 'reg_alpha': 3.934398585849099e-05, 'reg_lambda': 0.0005641022727407688}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9460617746461761, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9460617746461761
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=3, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=3
+[LightGBM] [Warning] feature_fraction is set=0.24989949202881057, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.24989949202881057
+[LightGBM] [Warning] bagging_freq is set=6, subsample_freq=0 will be ignored. Current value: bagging_freq=6
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[6125]	valid_0's l2: 63.3755
+[I 2021-07-27 18:23:22,472] Finished trial#49 with value: 3.3485316902054363 with parameters: {'objective': 'mse', 'learning_rate': 0.002316025814920261, 'n_estimators': 4976, 'max_depth': 15, 'num_leaves': 125245, 'max_bin': 165, 'feature_fraction': 0.24989949202881057, 'bagging_fraction': 0.9460617746461761, 'bagging_freq': 6, 'min_sum_hessian_in_leaf': 3, 'reg_alpha': 4.2724521332039095e-05, 'reg_lambda': 0.00029902367865468197}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9010094150908471, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9010094150908471
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=2, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=2
+[LightGBM] [Warning] feature_fraction is set=0.42251286273567656, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.42251286273567656
+[LightGBM] [Warning] bagging_freq is set=37, subsample_freq=0 will be ignored. Current value: bagging_freq=37
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1480]	valid_0's l1: 2.79582
+[I 2021-07-27 18:24:21,241] Finished trial#50 with value: 2.7958160678947666 with parameters: {'objective': 'mae', 'learning_rate': 0.012973482069791079, 'n_estimators': 4678, 'max_depth': 10, 'num_leaves': 97300, 'max_bin': 152, 'feature_fraction': 0.42251286273567656, 'bagging_fraction': 0.9010094150908471, 'bagging_freq': 37, 'min_sum_hessian_in_leaf': 2, 'reg_alpha': 1.713958540495214e-05, 'reg_lambda': 0.00015343741070586445}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9596016723671849, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9596016723671849
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=4, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=4
+[LightGBM] [Warning] feature_fraction is set=0.37629354974044016, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.37629354974044016
+[LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1249]	valid_0's l1: 2.7859
+[I 2021-07-27 18:25:52,598] Finished trial#51 with value: 2.785904029075067 with parameters: {'objective': 'mae', 'learning_rate': 0.021415259833028433, 'n_estimators': 5000, 'max_depth': 12, 'num_leaves': 84362, 'max_bin': 203, 'feature_fraction': 0.37629354974044016, 'bagging_fraction': 0.9596016723671849, 'bagging_freq': 5, 'min_sum_hessian_in_leaf': 4, 'reg_alpha': 0.00010002531549422785, 'reg_lambda': 0.0007280191627236176}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9648957234064813, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9648957234064813
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=4, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=4
+[LightGBM] [Warning] feature_fraction is set=0.47567170623201016, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.47567170623201016
+[LightGBM] [Warning] bagging_freq is set=20, subsample_freq=0 will be ignored. Current value: bagging_freq=20
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[847]	valid_0's l1: 2.78984
+[I 2021-07-27 18:27:19,655] Finished trial#52 with value: 2.789839692663185 with parameters: {'objective': 'mae', 'learning_rate': 0.023030200268626476, 'n_estimators': 4984, 'max_depth': 13, 'num_leaves': 92600, 'max_bin': 195, 'feature_fraction': 0.47567170623201016, 'bagging_fraction': 0.9648957234064813, 'bagging_freq': 20, 'min_sum_hessian_in_leaf': 4, 'reg_alpha': 0.00019119479037143974, 'reg_lambda': 0.000568264787314779}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9984969087379694, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9984969087379694
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=4, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=4
+[LightGBM] [Warning] feature_fraction is set=0.32923001393098544, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.32923001393098544
+[LightGBM] [Warning] bagging_freq is set=8, subsample_freq=0 will be ignored. Current value: bagging_freq=8
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1603]	valid_0's l1: 2.80059
+[I 2021-07-27 18:28:58,508] Finished trial#53 with value: 2.800593038046627 with parameters: {'objective': 'mae', 'learning_rate': 0.007828434191686355, 'n_estimators': 4542, 'max_depth': 11, 'num_leaves': 114065, 'max_bin': 217, 'feature_fraction': 0.32923001393098544, 'bagging_fraction': 0.9984969087379694, 'bagging_freq': 8, 'min_sum_hessian_in_leaf': 4, 'reg_alpha': 1.1202325786527494e-05, 'reg_lambda': 0.0006806685905109494}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9327483940352681, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9327483940352681
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=3, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=3
+[LightGBM] [Warning] feature_fraction is set=0.38056198871802144, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.38056198871802144
+[LightGBM] [Warning] bagging_freq is set=3, subsample_freq=0 will be ignored. Current value: bagging_freq=3
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1020]	valid_0's l1: 2.79927
+[I 2021-07-27 18:30:12,452] Finished trial#54 with value: 2.7992742342467785 with parameters: {'objective': 'mae', 'learning_rate': 0.029858166690563046, 'n_estimators': 4171, 'max_depth': 12, 'num_leaves': 68466, 'max_bin': 181, 'feature_fraction': 0.38056198871802144, 'bagging_fraction': 0.9327483940352681, 'bagging_freq': 3, 'min_sum_hessian_in_leaf': 3, 'reg_alpha': 4.101558300417426e-05, 'reg_lambda': 0.0018857935472702293}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.865795869874265, subsample=1.0 will be ignored. Current value: bagging_fraction=0.865795869874265
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.4431263566169345, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.4431263566169345
+[LightGBM] [Warning] bagging_freq is set=13, subsample_freq=0 will be ignored. Current value: bagging_freq=13
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[477]	valid_0's l1: 2.78933
+[I 2021-07-27 18:30:25,016] Finished trial#55 with value: 2.7893304674359487 with parameters: {'objective': 'mae', 'learning_rate': 0.06774235856925767, 'n_estimators': 4870, 'max_depth': 8, 'num_leaves': 83148, 'max_bin': 148, 'feature_fraction': 0.4431263566169345, 'bagging_fraction': 0.865795869874265, 'bagging_freq': 13, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 6.424565902238505e-05, 'reg_lambda': 0.00022661432579038204}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8665117378971376, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8665117378971376
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.526044371945648, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.526044371945648
+[LightGBM] [Warning] bagging_freq is set=15, subsample_freq=0 will be ignored. Current value: bagging_freq=15
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[560]	valid_0's l1: 2.79374
+[I 2021-07-27 18:30:36,209] Finished trial#56 with value: 2.7937424595152733 with parameters: {'objective': 'mae', 'learning_rate': 0.0931872182920543, 'n_estimators': 4859, 'max_depth': 7, 'num_leaves': 85363, 'max_bin': 158, 'feature_fraction': 0.526044371945648, 'bagging_fraction': 0.8665117378971376, 'bagging_freq': 15, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 3.5196839031902664e-05, 'reg_lambda': 0.00013799897667366733}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9729405443935336, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9729405443935336
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.43647645714510774, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.43647645714510774
+[LightGBM] [Warning] bagging_freq is set=29, subsample_freq=0 will be ignored. Current value: bagging_freq=29
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[435]	valid_0's l1: 2.79209
+[I 2021-07-27 18:30:47,877] Finished trial#57 with value: 2.7920947828472253 with parameters: {'objective': 'mae', 'learning_rate': 0.06748644909952259, 'n_estimators': 4419, 'max_depth': 8, 'num_leaves': 81803, 'max_bin': 143, 'feature_fraction': 0.43647645714510774, 'bagging_fraction': 0.9729405443935336, 'bagging_freq': 29, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 6.51595095757293e-05, 'reg_lambda': 0.00020666099849051106}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9022407417001692, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9022407417001692
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.8187534732915951, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8187534732915951
+[LightGBM] [Warning] bagging_freq is set=12, subsample_freq=0 will be ignored. Current value: bagging_freq=12
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[712]	valid_0's l1: 2.78092
+[I 2021-07-27 18:31:09,278] Finished trial#58 with value: 2.7809234959790654 with parameters: {'objective': 'mae', 'learning_rate': 0.0480714238102921, 'n_estimators': 4768, 'max_depth': 9, 'num_leaves': 59594, 'max_bin': 180, 'feature_fraction': 0.8187534732915951, 'bagging_fraction': 0.9022407417001692, 'bagging_freq': 12, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00010647751817877482, 'reg_lambda': 0.0005211950692618113}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.925058393615637, subsample=1.0 will be ignored. Current value: bagging_fraction=0.925058393615637
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.7847320607225402, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7847320607225402
+[LightGBM] [Warning] bagging_freq is set=20, subsample_freq=0 will be ignored. Current value: bagging_freq=20
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[733]	valid_0's l1: 2.78346
+[I 2021-07-27 18:31:32,422] Finished trial#59 with value: 2.7834636675544866 with parameters: {'objective': 'mae', 'learning_rate': 0.039444940573728736, 'n_estimators': 4318, 'max_depth': 9, 'num_leaves': 45913, 'max_bin': 191, 'feature_fraction': 0.7847320607225402, 'bagging_fraction': 0.925058393615637, 'bagging_freq': 20, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00012091775598156642, 'reg_lambda': 0.0007841855878649818}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9161414097380529, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9161414097380529
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.8634458429376277, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8634458429376277
+[LightGBM] [Warning] bagging_freq is set=20, subsample_freq=0 will be ignored. Current value: bagging_freq=20
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[669]	valid_0's l1: 2.7873
+[I 2021-07-27 18:31:53,764] Finished trial#60 with value: 2.7872974925453424 with parameters: {'objective': 'mae', 'learning_rate': 0.03965262284876667, 'n_estimators': 4684, 'max_depth': 9, 'num_leaves': 39892, 'max_bin': 186, 'feature_fraction': 0.8634458429376277, 'bagging_fraction': 0.9161414097380529, 'bagging_freq': 20, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 0.00012251642941423917, 'reg_lambda': 0.0007187398200624602}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8981748098602703, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8981748098602703
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.8510872932559321, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8510872932559321
+[LightGBM] [Warning] bagging_freq is set=18, subsample_freq=0 will be ignored. Current value: bagging_freq=18
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[328]	valid_0's l1: 2.8054
+[I 2021-07-27 18:32:07,370] Finished trial#61 with value: 2.805401495912367 with parameters: {'objective': 'mae', 'learning_rate': 0.042709494951288576, 'n_estimators': 4686, 'max_depth': 9, 'num_leaves': 38709, 'max_bin': 183, 'feature_fraction': 0.8510872932559321, 'bagging_fraction': 0.8981748098602703, 'bagging_freq': 18, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 0.0001155373571974921, 'reg_lambda': 0.0008967602166167162}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9299296906246086, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9299296906246086
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=10, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=10
+[LightGBM] [Warning] feature_fraction is set=0.8120269505267043, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8120269505267043
+[LightGBM] [Warning] bagging_freq is set=21, subsample_freq=0 will be ignored. Current value: bagging_freq=21
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[865]	valid_0's l1: 2.79072
+[I 2021-07-27 18:33:00,888] Finished trial#62 with value: 2.7907222411356423 with parameters: {'objective': 'mae', 'learning_rate': 0.01946151660064027, 'n_estimators': 4325, 'max_depth': 11, 'num_leaves': 40433, 'max_bin': 207, 'feature_fraction': 0.8120269505267043, 'bagging_fraction': 0.9299296906246086, 'bagging_freq': 21, 'min_sum_hessian_in_leaf': 10, 'reg_alpha': 0.00016937083382267883, 'reg_lambda': 0.00038791413518876367}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9726125524227438, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9726125524227438
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.7308958980894374, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7308958980894374
+[LightGBM] [Warning] bagging_freq is set=25, subsample_freq=0 will be ignored. Current value: bagging_freq=25
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[795]	valid_0's l1: 2.80858
+[I 2021-07-27 18:33:13,885] Finished trial#63 with value: 2.808582402186835 with parameters: {'objective': 'mae', 'learning_rate': 0.026986721017602876, 'n_estimators': 4591, 'max_depth': 6, 'num_leaves': 45753, 'max_bin': 180, 'feature_fraction': 0.7308958980894374, 'bagging_fraction': 0.9726125524227438, 'bagging_freq': 25, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00010936266230318075, 'reg_lambda': 0.0005364043001426869}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.830524243480106, subsample=1.0 will be ignored. Current value: bagging_fraction=0.830524243480106
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.7997308124848166, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7997308124848166
+[LightGBM] [Warning] bagging_freq is set=27, subsample_freq=0 will be ignored. Current value: bagging_freq=27
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1218]	valid_0's l1: 2.79518
+[I 2021-07-27 18:33:48,590] Finished trial#64 with value: 2.7951831673087155 with parameters: {'objective': 'mae', 'learning_rate': 0.021493034782364726, 'n_estimators': 4979, 'max_depth': 9, 'num_leaves': 32302, 'max_bin': 190, 'feature_fraction': 0.7997308124848166, 'bagging_fraction': 0.830524243480106, 'bagging_freq': 27, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 0.0003918656931788171, 'reg_lambda': 0.0014432088646341907}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9983305218887294, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9983305218887294
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.8951598229426005, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8951598229426005
+[LightGBM] [Warning] bagging_freq is set=9, subsample_freq=0 will be ignored. Current value: bagging_freq=9
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[537]	valid_0's l1: 2.78332
+[I 2021-07-27 18:34:29,805] Finished trial#65 with value: 2.783324426385125 with parameters: {'objective': 'mae', 'learning_rate': 0.04383349673323837, 'n_estimators': 4328, 'max_depth': 12, 'num_leaves': 59057, 'max_bin': 198, 'feature_fraction': 0.8951598229426005, 'bagging_fraction': 0.9983305218887294, 'bagging_freq': 9, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 8.811921305754424e-05, 'reg_lambda': 0.0009761263283853894}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9188022139973153, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9188022139973153
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.8987563508825345, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8987563508825345
+[LightGBM] [Warning] bagging_freq is set=11, subsample_freq=0 will be ignored. Current value: bagging_freq=11
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[496]	valid_0's l1: 2.78134
+[I 2021-07-27 18:35:00,804] Finished trial#66 with value: 2.781337379343089 with parameters: {'objective': 'mae', 'learning_rate': 0.039022546692556156, 'n_estimators': 4807, 'max_depth': 11, 'num_leaves': 14772, 'max_bin': 215, 'feature_fraction': 0.8987563508825345, 'bagging_fraction': 0.9188022139973153, 'bagging_freq': 11, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00014968501086743736, 'reg_lambda': 0.0009294441993432307}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9610511449985575, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9610511449985575
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.9115636329042247, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9115636329042247
+[LightGBM] [Warning] bagging_freq is set=9, subsample_freq=0 will be ignored. Current value: bagging_freq=9
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[172]	valid_0's l2: 63.2139
+[I 2021-07-27 18:35:10,850] Finished trial#67 with value: 3.3093568296183355 with parameters: {'objective': 'mse', 'learning_rate': 0.05200687414760026, 'n_estimators': 4467, 'max_depth': 11, 'num_leaves': 61119, 'max_bin': 235, 'feature_fraction': 0.9115636329042247, 'bagging_fraction': 0.9610511449985575, 'bagging_freq': 9, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00014744745224345093, 'reg_lambda': 0.003012400574565422}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8766526529625676, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8766526529625676
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.9655354735420338, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9655354735420338
+[LightGBM] [Warning] bagging_freq is set=13, subsample_freq=0 will be ignored. Current value: bagging_freq=13
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[156]	valid_0's l1: 2.82962
+[I 2021-07-27 18:35:43,293] Finished trial#68 with value: 2.8296228849540364 with parameters: {'objective': 'mae', 'learning_rate': 0.07479067870129114, 'n_estimators': 4827, 'max_depth': 14, 'num_leaves': 13880, 'max_bin': 213, 'feature_fraction': 0.9655354735420338, 'bagging_fraction': 0.8766526529625676, 'bagging_freq': 13, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 9.243350781744844e-05, 'reg_lambda': 0.0009711703233884916}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.25726640166092146, subsample=1.0 will be ignored. Current value: bagging_fraction=0.25726640166092146
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.8372112429455743, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8372112429455743
+[LightGBM] [Warning] bagging_freq is set=5, subsample_freq=0 will be ignored. Current value: bagging_freq=5
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[2470]	valid_0's huber: 2.32523
+[I 2021-07-27 18:37:10,128] Finished trial#69 with value: 2.8968678744510687 with parameters: {'objective': 'huber', 'learning_rate': 0.029374905723160025, 'n_estimators': 4288, 'max_depth': 13, 'num_leaves': 2272, 'max_bin': 199, 'feature_fraction': 0.8372112429455743, 'bagging_fraction': 0.25726640166092146, 'bagging_freq': 5, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 1.781433163083067e-05, 'reg_lambda': 0.00038557187476554713}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.7944223001526687, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7944223001526687
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.9064821031093847, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9064821031093847
+[LightGBM] [Warning] bagging_freq is set=9, subsample_freq=0 will be ignored. Current value: bagging_freq=9
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[965]	valid_0's l1: 2.79249
+[I 2021-07-27 18:38:11,736] Finished trial#70 with value: 2.792493143188885 with parameters: {'objective': 'mae', 'learning_rate': 0.03843223615116424, 'n_estimators': 4085, 'max_depth': 12, 'num_leaves': 53966, 'max_bin': 172, 'feature_fraction': 0.9064821031093847, 'bagging_fraction': 0.7944223001526687, 'bagging_freq': 9, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 3.390819742437215e-05, 'reg_lambda': 0.001956296902215085}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9058591887029659, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9058591887029659
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=10, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=10
+[LightGBM] [Warning] feature_fraction is set=0.7324262236537756, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7324262236537756
+[LightGBM] [Warning] bagging_freq is set=17, subsample_freq=0 will be ignored. Current value: bagging_freq=17
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[290]	valid_0's l1: 2.79852
+[I 2021-07-27 18:38:23,903] Finished trial#71 with value: 2.798517142686718 with parameters: {'objective': 'mae', 'learning_rate': 0.04583552655992161, 'n_estimators': 4702, 'max_depth': 9, 'num_leaves': 22532, 'max_bin': 223, 'feature_fraction': 0.7324262236537756, 'bagging_fraction': 0.9058591887029659, 'bagging_freq': 17, 'min_sum_hessian_in_leaf': 10, 'reg_alpha': 0.00012129824519826979, 'reg_lambda': 0.0007511089675822756}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9264667990116179, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9264667990116179
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.8908836754526838, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8908836754526838
+[LightGBM] [Warning] bagging_freq is set=13, subsample_freq=0 will be ignored. Current value: bagging_freq=13
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[198]	valid_0's l1: 2.81355
+[I 2021-07-27 18:38:35,437] Finished trial#72 with value: 2.8135545995375586 with parameters: {'objective': 'mae', 'learning_rate': 0.09729089825918515, 'n_estimators': 4593, 'max_depth': 10, 'num_leaves': 58096, 'max_bin': 204, 'feature_fraction': 0.8908836754526838, 'bagging_fraction': 0.9264667990116179, 'bagging_freq': 13, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 7.188807844176272e-05, 'reg_lambda': 0.0005104723347868049}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9852360599594606, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9852360599594606
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.9391603907234735, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9391603907234735
+[LightGBM] [Warning] bagging_freq is set=22, subsample_freq=0 will be ignored. Current value: bagging_freq=22
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[903]	valid_0's l1: 2.79629
+[I 2021-07-27 18:38:57,769] Finished trial#73 with value: 2.7962889271474034 with parameters: {'objective': 'mae', 'learning_rate': 0.036435476158137914, 'n_estimators': 4983, 'max_depth': 8, 'num_leaves': 34842, 'max_bin': 248, 'feature_fraction': 0.9391603907234735, 'bagging_fraction': 0.9852360599594606, 'bagging_freq': 22, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 5.022552515090594e-05, 'reg_lambda': 0.00139640176057961}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9493885183346695, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9493885183346695
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.7726466150382418, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7726466150382418
+[LightGBM] [Warning] bagging_freq is set=7, subsample_freq=0 will be ignored. Current value: bagging_freq=7
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[559]	valid_0's l1: 2.78537
+[I 2021-07-27 18:39:30,453] Finished trial#74 with value: 2.785369066993257 with parameters: {'objective': 'mae', 'learning_rate': 0.05205762385681233, 'n_estimators': 4325, 'max_depth': 11, 'num_leaves': 49181, 'max_bin': 196, 'feature_fraction': 0.7726466150382418, 'bagging_fraction': 0.9493885183346695, 'bagging_freq': 7, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.0001670125135836771, 'reg_lambda': 0.0010845278178151156}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.953123809495786, subsample=1.0 will be ignored. Current value: bagging_fraction=0.953123809495786
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.7630966841325553, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7630966841325553
+[LightGBM] [Warning] bagging_freq is set=4, subsample_freq=0 will be ignored. Current value: bagging_freq=4
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[559]	valid_0's l1: 2.79093
+[I 2021-07-27 18:40:02,977] Finished trial#75 with value: 2.7909289038218947 with parameters: {'objective': 'mae', 'learning_rate': 0.055692834006622526, 'n_estimators': 4311, 'max_depth': 11, 'num_leaves': 49496, 'max_bin': 172, 'feature_fraction': 0.7630966841325553, 'bagging_fraction': 0.953123809495786, 'bagging_freq': 4, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.02535277087922309, 'reg_lambda': 0.0026237419883841525}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8255244651520153, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8255244651520153
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.611410349815166, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.611410349815166
+[LightGBM] [Warning] bagging_freq is set=8, subsample_freq=0 will be ignored. Current value: bagging_freq=8
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1040]	valid_0's l1: 2.78909
+[I 2021-07-27 18:40:43,504] Finished trial#76 with value: 2.7890929320901443 with parameters: {'objective': 'mae', 'learning_rate': 0.028056577836564064, 'n_estimators': 1110, 'max_depth': 10, 'num_leaves': 7804, 'max_bin': 196, 'feature_fraction': 0.611410349815166, 'bagging_fraction': 0.8255244651520153, 'bagging_freq': 8, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 0.0002090841760898523, 'reg_lambda': 0.0011023087369576984}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.999292689302852, subsample=1.0 will be ignored. Current value: bagging_fraction=0.999292689302852
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.9990248856479953, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9990248856479953
+[LightGBM] [Warning] bagging_freq is set=12, subsample_freq=0 will be ignored. Current value: bagging_freq=12
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[364]	valid_0's l1: 2.81735
+[I 2021-07-27 18:41:14,435] Finished trial#77 with value: 2.8173452082417767 with parameters: {'objective': 'mae', 'learning_rate': 0.05783546512001765, 'n_estimators': 4070, 'max_depth': 12, 'num_leaves': 63043, 'max_bin': 209, 'feature_fraction': 0.9990248856479953, 'bagging_fraction': 0.999292689302852, 'bagging_freq': 12, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00070140164905675, 'reg_lambda': 0.0003763384511692744}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9408562761835886, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9408562761835886
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.8240725224626825, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8240725224626825
+[LightGBM] [Warning] bagging_freq is set=1, subsample_freq=0 will be ignored. Current value: bagging_freq=1
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1525]	valid_0's l1: 2.78516
+[I 2021-07-27 18:42:22,611] Finished trial#78 with value: 2.785156487789493 with parameters: {'objective': 'mae', 'learning_rate': 0.019762187322024987, 'n_estimators': 4448, 'max_depth': 11, 'num_leaves': 49180, 'max_bin': 222, 'feature_fraction': 0.8240725224626825, 'bagging_fraction': 0.9408562761835886, 'bagging_freq': 1, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00029690194829375084, 'reg_lambda': 6.87045400312086e-05}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8746884249321569, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8746884249321569
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.8157890365993667, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8157890365993667
+[LightGBM] [Warning] bagging_freq is set=97, subsample_freq=0 will be ignored. Current value: bagging_freq=97
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[324]	valid_0's l1: 2.79551
+[I 2021-07-27 18:42:41,371] Finished trial#79 with value: 2.795508605095464 with parameters: {'objective': 'mae', 'learning_rate': 0.08732294075026915, 'n_estimators': 3938, 'max_depth': 11, 'num_leaves': 48731, 'max_bin': 238, 'feature_fraction': 0.8157890365993667, 'bagging_fraction': 0.8746884249321569, 'bagging_freq': 97, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00030658395260250586, 'reg_lambda': 1.1157137403852827e-05}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9326344576638856, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9326344576638856
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.6961189165091083, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6961189165091083
+[LightGBM] [Warning] bagging_freq is set=2, subsample_freq=0 will be ignored. Current value: bagging_freq=2
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[369]	valid_0's l1: 2.80014
+[I 2021-07-27 18:43:03,559] Finished trial#80 with value: 2.8001370765549543 with parameters: {'objective': 'mae', 'learning_rate': 0.046818534653772045, 'n_estimators': 4381, 'max_depth': 10, 'num_leaves': 44575, 'max_bin': 222, 'feature_fraction': 0.6961189165091083, 'bagging_fraction': 0.9326344576638856, 'bagging_freq': 2, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 0.00045844652336349577, 'reg_lambda': 4.85043469570266e-05}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.979401293126005, subsample=1.0 will be ignored. Current value: bagging_fraction=0.979401293126005
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.7818407035263599, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7818407035263599
+[LightGBM] [Warning] bagging_freq is set=6, subsample_freq=0 will be ignored. Current value: bagging_freq=6
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1010]	valid_0's l1: 2.79035
+[I 2021-07-27 18:44:51,337] Finished trial#81 with value: 2.7903502967970426 with parameters: {'objective': 'mae', 'learning_rate': 0.019318827078499065, 'n_estimators': 4499, 'max_depth': 13, 'num_leaves': 56872, 'max_bin': 201, 'feature_fraction': 0.7818407035263599, 'bagging_fraction': 0.979401293126005, 'bagging_freq': 6, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 9.381006622077393e-05, 'reg_lambda': 8.321371686537104e-05}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9431014074344278, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9431014074344278
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.8285937620067367, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8285937620067367
+[LightGBM] [Warning] bagging_freq is set=7, subsample_freq=0 will be ignored. Current value: bagging_freq=7
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[1403]	valid_0's l1: 2.8102
+[I 2021-07-27 18:46:42,926] Finished trial#82 with value: 2.8101997471284585 with parameters: {'objective': 'mae', 'learning_rate': 0.010920344991475006, 'n_estimators': 4848, 'max_depth': 12, 'num_leaves': 69199, 'max_bin': 191, 'feature_fraction': 0.8285937620067367, 'bagging_fraction': 0.9431014074344278, 'bagging_freq': 7, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 0.00016319029349462976, 'reg_lambda': 2.665810177362661e-05}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.8884269386112067, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8884269386112067
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.9988450761480365, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.9988450761480365
+[LightGBM] [Warning] bagging_freq is set=1, subsample_freq=0 will be ignored. Current value: bagging_freq=1
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[484]	valid_0's l1: 2.8031
+[I 2021-07-27 18:52:08,099] Finished trial#83 with value: 2.8030952843591046 with parameters: {'objective': 'mae', 'learning_rate': 0.02393496956223268, 'n_estimators': 4798, 'max_depth': 20, 'num_leaves': 51235, 'max_bin': 217, 'feature_fraction': 0.9988450761480365, 'bagging_fraction': 0.8884269386112067, 'bagging_freq': 1, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 5.653768297780561e-05, 'reg_lambda': 0.0002827243927205143}. Best is trial#15 with value: 2.7801559103648796.
+[LightGBM] [Warning] bagging_fraction is set=0.9158636036919626, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9158636036919626
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.7823681184921352, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7823681184921352
+[LightGBM] [Warning] bagging_freq is set=11, subsample_freq=0 will be ignored. Current value: bagging_freq=11
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[733]	valid_0's l1: 2.77623
+[I 2021-07-27 18:52:49,114] Finished trial#84 with value: 2.776229152088133 with parameters: {'objective': 'mae', 'learning_rate': 0.03299927790899556, 'n_estimators': 4173, 'max_depth': 11, 'num_leaves': 26495, 'max_bin': 176, 'feature_fraction': 0.7823681184921352, 'bagging_fraction': 0.9158636036919626, 'bagging_freq': 11, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 0.00029498249657599, 'reg_lambda': 0.004926917826245172}. Best is trial#84 with value: 2.776229152088133.
+[LightGBM] [Warning] bagging_fraction is set=0.8440986401356743, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8440986401356743
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.7827667831850411, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7827667831850411
+[LightGBM] [Warning] bagging_freq is set=11, subsample_freq=0 will be ignored. Current value: bagging_freq=11
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[637]	valid_0's l1: 2.77696
+[I 2021-07-27 18:53:26,196] Finished trial#85 with value: 2.7769579719703064 with parameters: {'objective': 'mae', 'learning_rate': 0.03193379016338563, 'n_estimators': 4206, 'max_depth': 11, 'num_leaves': 20057, 'max_bin': 176, 'feature_fraction': 0.7827667831850411, 'bagging_fraction': 0.8440986401356743, 'bagging_freq': 11, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 0.0003036916483621027, 'reg_lambda': 0.005472319756460849}. Best is trial#84 with value: 2.776229152088133.
+[LightGBM] [Warning] bagging_fraction is set=0.8435325000007812, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8435325000007812
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.7224684684432994, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7224684684432994
+[LightGBM] [Warning] bagging_freq is set=11, subsample_freq=0 will be ignored. Current value: bagging_freq=11
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[424]	valid_0's l1: 2.80012
+[I 2021-07-27 18:53:46,669] Finished trial#86 with value: 2.8001172546746673 with parameters: {'objective': 'mae', 'learning_rate': 0.03277305321460361, 'n_estimators': 4207, 'max_depth': 10, 'num_leaves': 23229, 'max_bin': 161, 'feature_fraction': 0.7224684684432994, 'bagging_fraction': 0.8435325000007812, 'bagging_freq': 11, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 0.00027821383728060474, 'reg_lambda': 0.004924702423253162}. Best is trial#84 with value: 2.776229152088133.
+[LightGBM] [Warning] bagging_fraction is set=0.8108160144818022, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8108160144818022
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.8797357324379057, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8797357324379057
+[LightGBM] [Warning] bagging_freq is set=15, subsample_freq=0 will be ignored. Current value: bagging_freq=15
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[913]	valid_0's l1: 2.78587
+[I 2021-07-27 18:54:35,566] Finished trial#87 with value: 2.7858688569072005 with parameters: {'objective': 'mae', 'learning_rate': 0.025417333021387257, 'n_estimators': 4128, 'max_depth': 11, 'num_leaves': 18394, 'max_bin': 138, 'feature_fraction': 0.8797357324379057, 'bagging_fraction': 0.8108160144818022, 'bagging_freq': 15, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 0.000923944191921717, 'reg_lambda': 0.002994803390302207}. Best is trial#84 with value: 2.776229152088133.
+[LightGBM] [Warning] bagging_fraction is set=0.9138051686351722, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9138051686351722
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.8439504455792536, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.8439504455792536
+[LightGBM] [Warning] bagging_freq is set=17, subsample_freq=0 will be ignored. Current value: bagging_freq=17
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[607]	valid_0's l1: 2.78634
+[I 2021-07-27 18:54:55,750] Finished trial#88 with value: 2.78634367146335 with parameters: {'objective': 'mae', 'learning_rate': 0.03778750619127645, 'n_estimators': 3810, 'max_depth': 9, 'num_leaves': 27055, 'max_bin': 175, 'feature_fraction': 0.8439504455792536, 'bagging_fraction': 0.9138051686351722, 'bagging_freq': 17, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 0.0005062458251822296, 'reg_lambda': 0.003952283706832349}. Best is trial#84 with value: 2.776229152088133.
+[LightGBM] [Warning] bagging_fraction is set=0.7721668715317404, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7721668715317404
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=7, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=7
+[LightGBM] [Warning] feature_fraction is set=0.7927137378948123, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7927137378948123
+[LightGBM] [Warning] bagging_freq is set=10, subsample_freq=0 will be ignored. Current value: bagging_freq=10
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[580]	valid_0's l2: 62.227
+[I 2021-07-27 18:55:13,376] Finished trial#89 with value: 3.244054876945134 with parameters: {'objective': 'mse', 'learning_rate': 0.01645420505821012, 'n_estimators': 3628, 'max_depth': 10, 'num_leaves': 8939, 'max_bin': 127, 'feature_fraction': 0.7927137378948123, 'bagging_fraction': 0.7721668715317404, 'bagging_freq': 10, 'min_sum_hessian_in_leaf': 7, 'reg_alpha': 0.0003430736683249878, 'reg_lambda': 0.007321615843212824}. Best is trial#84 with value: 2.776229152088133.
+[LightGBM] [Warning] bagging_fraction is set=0.8463532776186193, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8463532776186193
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=6, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=6
+[LightGBM] [Warning] feature_fraction is set=0.7402258072400939, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7402258072400939
+[LightGBM] [Warning] bagging_freq is set=13, subsample_freq=0 will be ignored. Current value: bagging_freq=13
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[940]	valid_0's l1: 2.80475
+[I 2021-07-27 18:56:28,283] Finished trial#90 with value: 2.804749861963454 with parameters: {'objective': 'mae', 'learning_rate': 0.013332597876934221, 'n_estimators': 3892, 'max_depth': 12, 'num_leaves': 18144, 'max_bin': 177, 'feature_fraction': 0.7402258072400939, 'bagging_fraction': 0.8463532776186193, 'bagging_freq': 13, 'min_sum_hessian_in_leaf': 6, 'reg_alpha': 0.0005867191186848101, 'reg_lambda': 0.013039093558334179}. Best is trial#84 with value: 2.776229152088133.
+[LightGBM] [Warning] bagging_fraction is set=0.8841777108666623, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8841777108666623
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.7757056222879881, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7757056222879881
+[LightGBM] [Warning] bagging_freq is set=3, subsample_freq=0 will be ignored. Current value: bagging_freq=3
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[284]	valid_0's l1: 2.80585
+[I 2021-07-27 18:56:50,923] Finished trial#91 with value: 2.805847820085403 with parameters: {'objective': 'mae', 'learning_rate': 0.046476739774791206, 'n_estimators': 4321, 'max_depth': 11, 'num_leaves': 26453, 'max_bin': 191, 'feature_fraction': 0.7757056222879881, 'bagging_fraction': 0.8841777108666623, 'bagging_freq': 3, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00014223519517471078, 'reg_lambda': 0.0012431782750708387}. Best is trial#84 with value: 2.776229152088133.
+[LightGBM] [Warning] bagging_fraction is set=0.9102311988250655, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9102311988250655
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.6577763017247104, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6577763017247104
+[LightGBM] [Warning] bagging_freq is set=7, subsample_freq=0 will be ignored. Current value: bagging_freq=7
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[400]	valid_0's l1: 2.77508
+[I 2021-07-27 18:57:15,002] Finished trial#92 with value: 2.775081032981878 with parameters: {'objective': 'mae', 'learning_rate': 0.06400959575202655, 'n_estimators': 4492, 'max_depth': 11, 'num_leaves': 36693, 'max_bin': 166, 'feature_fraction': 0.6577763017247104, 'bagging_fraction': 0.9102311988250655, 'bagging_freq': 7, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00022893773473705515, 'reg_lambda': 0.00048731841698770753}. Best is trial#92 with value: 2.775081032981878.
+[LightGBM] [Warning] bagging_fraction is set=0.9090179690201253, subsample=1.0 will be ignored. Current value: bagging_fraction=0.9090179690201253
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=8, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=8
+[LightGBM] [Warning] feature_fraction is set=0.6727754052246345, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6727754052246345
+[LightGBM] [Warning] bagging_freq is set=11, subsample_freq=0 will be ignored. Current value: bagging_freq=11
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[315]	valid_0's l1: 2.81055
+[I 2021-07-27 18:57:49,757] Finished trial#93 with value: 2.810545468542358 with parameters: {'objective': 'mae', 'learning_rate': 0.07368090993882888, 'n_estimators': 4570, 'max_depth': 13, 'num_leaves': 35586, 'max_bin': 166, 'feature_fraction': 0.6727754052246345, 'bagging_fraction': 0.9090179690201253, 'bagging_freq': 11, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00024600013234000453, 'reg_lambda': 0.0016073269414637191}. Best is trial#92 with value: 2.775081032981878.
+[LightGBM] [Warning] bagging_fraction is set=0.8722567003427427, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8722567003427427
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.7059772968963195, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7059772968963195
+[LightGBM] [Warning] bagging_freq is set=14, subsample_freq=0 will be ignored. Current value: bagging_freq=14
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[839]	valid_0's l1: 2.7806
+[I 2021-07-27 18:58:22,468] Finished trial#94 with value: 2.7806033707813835 with parameters: {'objective': 'mae', 'learning_rate': 0.03265578143955931, 'n_estimators': 4042, 'max_depth': 10, 'num_leaves': 44636, 'max_bin': 159, 'feature_fraction': 0.7059772968963195, 'bagging_fraction': 0.8722567003427427, 'bagging_freq': 14, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 0.00021042655874405717, 'reg_lambda': 0.0009208389566356821}. Best is trial#92 with value: 2.775081032981878.
+[LightGBM] [Warning] bagging_fraction is set=0.867157721143434, subsample=1.0 will be ignored. Current value: bagging_fraction=0.867157721143434
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.6481252654423798, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.6481252654423798
+[LightGBM] [Warning] bagging_freq is set=15, subsample_freq=0 will be ignored. Current value: bagging_freq=15
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[5297]	valid_0's huber: 2.27951
+[I 2021-07-27 19:00:26,531] Finished trial#95 with value: 2.847322498512297 with parameters: {'objective': 'huber', 'learning_rate': 0.03154819811368194, 'n_estimators': 4014, 'max_depth': 10, 'num_leaves': 27578, 'max_bin': 152, 'feature_fraction': 0.6481252654423798, 'bagging_fraction': 0.867157721143434, 'bagging_freq': 15, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 0.00020110292561547233, 'reg_lambda': 0.0008658401047526508}. Best is trial#92 with value: 2.775081032981878.
+[LightGBM] [Warning] bagging_fraction is set=0.8285409207913259, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8285409207913259
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=10, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=10
+[LightGBM] [Warning] feature_fraction is set=0.5854684573247185, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.5854684573247185
+[LightGBM] [Warning] bagging_freq is set=19, subsample_freq=0 will be ignored. Current value: bagging_freq=19
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[281]	valid_0's l1: 2.80982
+[I 2021-07-27 19:00:35,305] Finished trial#96 with value: 2.8098240680105078 with parameters: {'objective': 'mae', 'learning_rate': 0.05936371620143241, 'n_estimators': 4238, 'max_depth': 8, 'num_leaves': 31749, 'max_bin': 162, 'feature_fraction': 0.5854684573247185, 'bagging_fraction': 0.8285409207913259, 'bagging_freq': 19, 'min_sum_hessian_in_leaf': 10, 'reg_alpha': 0.0013845832733752686, 'reg_lambda': 0.0005014559648557948}. Best is trial#92 with value: 2.775081032981878.
+[LightGBM] [Warning] bagging_fraction is set=0.8492665035371755, subsample=1.0 will be ignored. Current value: bagging_fraction=0.8492665035371755
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=10, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=10
+[LightGBM] [Warning] feature_fraction is set=0.7038650025347627, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7038650025347627
+[LightGBM] [Warning] bagging_freq is set=23, subsample_freq=0 will be ignored. Current value: bagging_freq=23
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[483]	valid_0's l1: 2.78122
+[I 2021-07-27 19:00:51,358] Finished trial#97 with value: 2.781215647509822 with parameters: {'objective': 'mae', 'learning_rate': 0.04039449760601469, 'n_estimators': 4138, 'max_depth': 9, 'num_leaves': 17310, 'max_bin': 158, 'feature_fraction': 0.7038650025347627, 'bagging_fraction': 0.8492665035371755, 'bagging_freq': 23, 'min_sum_hessian_in_leaf': 10, 'reg_alpha': 7.468288812129873e-05, 'reg_lambda': 0.0017312183989502815}. Best is trial#92 with value: 2.775081032981878.
+[LightGBM] [Warning] bagging_fraction is set=0.782681202290117, subsample=1.0 will be ignored. Current value: bagging_fraction=0.782681202290117
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=9, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=9
+[LightGBM] [Warning] feature_fraction is set=0.7039366652243365, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.7039366652243365
+[LightGBM] [Warning] bagging_freq is set=23, subsample_freq=0 will be ignored. Current value: bagging_freq=23
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[375]	valid_0's l1: 2.78283
+[I 2021-07-27 19:01:03,983] Finished trial#98 with value: 2.7828301501915105 with parameters: {'objective': 'mae', 'learning_rate': 0.06598684344331224, 'n_estimators': 3766, 'max_depth': 9, 'num_leaves': 13451, 'max_bin': 169, 'feature_fraction': 0.7039366652243365, 'bagging_fraction': 0.782681202290117, 'bagging_freq': 23, 'min_sum_hessian_in_leaf': 9, 'reg_alpha': 0.00037512511495641073, 'reg_lambda': 0.001691979089160815}. Best is trial#92 with value: 2.775081032981878.
+[LightGBM] [Warning] bagging_fraction is set=0.7612272919189997, subsample=1.0 will be ignored. Current value: bagging_fraction=0.7612272919189997
+[LightGBM] [Warning] min_sum_hessian_in_leaf is set=10, min_child_weight=0.001 will be ignored. Current value: min_sum_hessian_in_leaf=10
+[LightGBM] [Warning] feature_fraction is set=0.706970407027736, colsample_bytree=1.0 will be ignored. Current value: feature_fraction=0.706970407027736
+[LightGBM] [Warning] bagging_freq is set=24, subsample_freq=0 will be ignored. Current value: bagging_freq=24
+Training until validation scores don't improve for 100 rounds
+Early stopping, best iteration is:
+[337]	valid_0's l1: 2.80871
+[I 2021-07-27 19:01:11,367] Finished trial#99 with value: 2.8087101878563066 with parameters: {'objective': 'mae', 'learning_rate': 0.06690914794520417, 'n_estimators': 3716, 'max_depth': 7, 'num_leaves': 12799, 'max_bin': 156, 'feature_fraction': 0.706970407027736, 'bagging_fraction': 0.7612272919189997, 'bagging_freq': 24, 'min_sum_hessian_in_leaf': 10, 'reg_alpha': 0.0003550365285532966, 'reg_lambda': 0.0017241563707205746}. Best is trial#92 with value: 2.775081032981878.
+Time consumed (min): 318.2
+Best trial: 
+{'objective': 'mae', 'learning_rate': 0.06400959575202655, 'n_estimators': 4492, 'max_depth': 11, 'num_leaves': 36693, 'max_bin': 166, 'feature_fraction': 0.6577763017247104, 'bagging_fraction': 0.9102311988250655, 'bagging_freq': 7, 'min_sum_hessian_in_leaf': 8, 'reg_alpha': 0.00022893773473705515, 'reg_lambda': 0.00048731841698770753}
